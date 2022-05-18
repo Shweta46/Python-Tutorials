@@ -1,0 +1,1 @@
+#write python in powershell and start writing numbers and solve them
