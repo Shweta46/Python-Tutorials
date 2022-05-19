@@ -31,3 +31,5 @@ print(min(s))
 s3 = {4,6}
 print(s.isdisjoint(s3))#A pair of sets which does not have any common element are called disjoint sets
 #in the above, we are checking is s is disjoint with s3 or not
+s.remove(2)
+print(s)
