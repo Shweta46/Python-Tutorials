@@ -1,9 +1,12 @@
 #Dictionary is a key-value pair that is a word (key) and its meaning (pair)
+#it is defined using curly brackets
 d1 = {}
 print(type(d1))#the class comes as dict
 
-d2 = {'Harry':'Burger', 'Rohan':'Fish', 'SkillF':'Roti',
+d2 = {'Harry':'Burger', 'Rohan':'Fish', 'Phill':'Roti',
       'Shubham':{'B':'Maggie','L':'Roti','D':'Chicken'}}
+print(d2)
+print(d2.keys())
 print(d2['Harry'])#prints the value of Harry that is Burger
 print(d2['Shubham'])#prints the whole dict of Shubham
 print(d2['Shubham']['B'])#prints maggie
@@ -25,8 +28,9 @@ print(d3)
 print(d2)
 print(d2.get('Harry'))
 
-d2.update({'Leena':'Peena'})#updating the dict
+d2.update({'Leena':'Peena'})#updating the dict that is somewhat similar to appending but append cant be used in a dict
+
 print(d2)
 print('\n')
 print(d2.keys())#prints all the keys of the dict
-print(d2.items())#prints all the key value pairs of dict
+print(d2.items())#prints all the key-value pairs of dict

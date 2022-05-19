@@ -1,5 +1,9 @@
 mystr = "Stars are infinity but moon is only one, you are my moon"
 print(mystr)
+my = (1,2) #example of a tuple
+print(type(my))
+print(my)
+print(type(mystr))
 print(mystr[4])#prints s or fourth character of the string
 print(mystr[1:5])# to include all the letters from 0 to 5,we type this so whole "Stars" word will be included
 #this above thing is called string slicing, in the above example only "tars" will be printed
