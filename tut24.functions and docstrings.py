@@ -15,7 +15,7 @@ def func2(a, b):
     average = (a+b)/2
     # print(average)
     return average
-# v= func2(5, 7) #the value of return from the function is stored in v
-# print(v) #this prints the value of v which from the above line now stores the return value of output
+v= func2(5, 7) #the value of return from the function is stored in v
+print(v) #this prints the value of v which from the above line now stores the return value of output
 print(func2.__doc__) #to print the docstring of the function mentioned
 #usually, we print the docstrings of the function before we use it to define its usage
