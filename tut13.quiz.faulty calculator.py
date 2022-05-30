@@ -8,18 +8,15 @@ print("Enter second number")
 num2 = int(input())
 print("Enter the operator")
 op = input("Choose a math operation (+, -, *): ")
-if (num1 == 45 and num2 == 3):
-    if op == '*':
-        output = 555
-        print(output)
-elif (num1 == 56 and num2 == 9):
-    if op == '+':
-        output = 77
-        print(output)
-elif (num1 == 56 and num2 == 6):
-    if op == '/':
-        output = 4
-        print(output)
+if (num1 == 45 and num2 == 3 and op == '*'):
+    output = 555
+    print(output)
+elif (num1 == 56 and num2 == 9 and op == '+'):
+    output = 77
+    print(output)
+elif (num1 == 56 and num2 == 6 and op == '/'):
+    output = 4
+    print(output)
 else:
     if op== '+':
         print(num1 + num2)
