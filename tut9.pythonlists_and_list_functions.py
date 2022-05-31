@@ -7,6 +7,9 @@ print(grocery[5])#prints 56
 
 numbers = [2, 7, 9, 11, 3]
 print(type(numbers))
+#prints the individual items in the list
+for item in numbers:
+    print(item)
 print(numbers)#prints the numbers
 
 print(numbers[2])

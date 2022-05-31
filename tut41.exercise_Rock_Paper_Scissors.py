@@ -156,9 +156,3 @@ while(i <= n and i != j):
                     break
     #     break
     # break
-
-
-
-
-
-
