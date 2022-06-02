@@ -13,3 +13,4 @@ print(tut47_if_name_equals_main_usage_and_necessity.add(5,3))
 
 #when we use main function in other file, the content inside the main function doesnt execute when the file itself is imported by other files
 #this function prints only the needed part, not all the program of the other file we imported
+#if __name__function was included in the

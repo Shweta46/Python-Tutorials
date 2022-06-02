@@ -9,7 +9,7 @@ def add(num1, num2):
 
 print("and the name is", __name__)
 #here, when we print the above statement this prints, as __main__
-#when we import this and run the file, the name will be something else
+#when we import this and run the file, the name will be the name of the file from which it was imported
 if __name__ == '__main__':
     print(printher("Hermione"))
     o = add(4, 6)
