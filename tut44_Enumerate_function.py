@@ -1,5 +1,4 @@
 l1 = ["Bhindi", "Aloo", "Momos", "Sphagetti"]
-
 #to only select the odd items in the list
 i = 1
 for item in l1:

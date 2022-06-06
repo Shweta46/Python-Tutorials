@@ -14,6 +14,7 @@ def function_args(normal, *args): #the function can also take normal arguments w
 #args is depicted by the keyword with the star
     print(type(args)) #the argument is taken as tuple in every case
     print(args[0]) #prints the first element of the list
+
 #add the names in list and then pass the list containing the names in the function instead of adding one by one name
 names = ["Hermione", "Ron", "Ginny", "Fred","Program"]
 normal = "I am a normal argument"
@@ -27,12 +28,12 @@ list2 = ["Hermione", "Ron", "Ginny", "Fred", "Program"]
 function_args2(*list2)
 
 #but
-#the function wont run
 #THE CONVENTION:
 #we have to pass the normal argument first and then the args
 # def function_args2(*name_can_be_anything, normal):
 
-#USE OF KWARGS
+#-----------------------------USE OF KWARGS-------------------------------------------
+
 def function_args3(normal, *name_can_be_anything, **kwargs_program_wala):
     print(normal)
     for item in name_can_be_anything:
