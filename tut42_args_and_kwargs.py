@@ -22,7 +22,9 @@ function_args(normal, *names) #the star sends all the contents of har inside the
 #so just adding the name in the list simply will make that name print too instead of going all the way to the function as well
 
 def function_args2(*name_can_be_anything):
-    print(name_can_be_anything[0])
+    print("Im here")
+    print(name_can_be_anything) #prints the whole list
+    print(name_can_be_anything[0]) #prints first element of the list
 
 list2 = ["Hermione", "Ron", "Ginny", "Fred", "Program"]
 function_args2(*list2)

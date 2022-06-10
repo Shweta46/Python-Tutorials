@@ -24,7 +24,7 @@ class Employee:
 #you can just edit the function used by the objects and the final product used by the objects will contain the editted version
 #without having to change the objects individually
 
-#--------------------constructor----------------------------------
+#--------------------------Constructor----------------------------------
 
 harry = Employee("Harry", 455, "Instructor") #without constructors, this shows the error Employee() takes no arguments
 #to make the Employee class take arguments, we use constructors
@@ -32,3 +32,4 @@ harry = Employee("Harry", 455, "Instructor") #without constructors, this shows t
 #to avail the function, we dont necessary have to call it, we just pass the arguments in the class itself and it will do the job
 #for the line 31 to run successfully and not use any other program statements, we directly write this and comment out the lines above describing the individual values
 print(harry.salary)
+print(harry.print_details())
